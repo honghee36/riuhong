@@ -342,7 +342,7 @@
         <h2 class="section-title" data-aos="fade-up">Sản phẩm nổi bật</h2>
         <div class="grid">
             <div class="item" data-aos="fade-up" data-aos-delay="100">
-                <img src="ảnh/z7269443548905_43e0fa03e50582256b7d063bd7795e72.jpg" alt="Áo Croptop">
+                <img src="(https://scontent.fhan15-2.fna.fbcdn.net/v/t39.30808-6/577889305_1501696354491249_7658951385371762308_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=QKv17jZOt_gQ7kNvwEDZo_p&_nc_oc=AdmIDUfd7msWEl5ir_AXD-VBwvZuf2cuDvMSa7M4OWGr4kZa-ywBnlyq10ODkQ2dYMUWXNLKQVBtbhXOzPK_xdQ7&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=IguLpkx-cbP85ftngadN6w&oh=00_AfhCN-PMkAm-r2FCLcNm1ZkmoRxNUsOLC0TJaC_4SJvFNA&oe=692E678)" alt="Áo Croptop">
                 <div class="item-info">
                     <h3>Áo hoodie </h3>
                     <p>450.000đ</p>
