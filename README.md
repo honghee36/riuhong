@@ -79,6 +79,87 @@
             transition: 0.3s;
         }
         .lang-switch:hover {
+            background: var(--p<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RiuHong | DRIPP GANG GANG </title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <style>
+        :root {
+            --primary: #000000;
+            --secondary: #ffffff;
+            --accent: #d4af37;
+            --text: #333;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Montserrat', 'Arial', sans-serif;
+            overflow-x: hidden;
+            background: #fafafa;
+            color: var(--text);
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            transition: all 0.4s;
+            border-bottom: 1px solid #eee;
+        }
+        header.scrolled {
+            padding: 15px 5%;
+            background: rgba(255,255,255,0.98);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        .logo {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+        nav a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+            transition: 0.3s;
+        }
+        nav a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -8px;
+            left: 50%;
+            background: var(--primary);
+            transition: 0.4s;
+            transform: translateX(-50%);
+        }
+        nav a:hover::after { width: 100%; }
+
+        .lang-switch {
+            cursor: pointer;
+            padding: 8px 16px;
+            border: 1.5px solid var(--primary);
+            border-radius: 30px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+        .lang-switch:hover {
             background: var(--primary);
             color: white;
         }
@@ -87,8 +168,7 @@
 
         .hero {
             height: 100vh;
-            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), 
-                        url('ảnh/hero-bg.jpg') center/cover no-repeat;
+            background: <img src="ảnh/Ảnh chụp màn hình 2025-11-27 215312.png">;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -262,28 +342,28 @@
         <h2 class="section-title" data-aos="fade-up">Sản phẩm nổi bật</h2>
         <div class="grid">
             <div class="item" data-aos="fade-up" data-aos-delay="100">
-                <img src="ảnh/Ảnh chụp màn hình 2025-11-27 215327.png" alt="Áo Croptop">
+                <img src="ảnh/z7269443548905_43e0fa03e50582256b7d063bd7795e72.jpg" alt="Áo Croptop">
                 <div class="item-info">
-                    <h3>Áo Croptop Trắng</h3>
+                    <h3>Áo hoodie </h3>
                     <p>450.000đ</p>
                 </div>
             </div>
             <div class="item" data-aos="fade-up" data-aos-delay="200">
-                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800" alt="Đầm công sở">
+                <img src="ảnh/z7269607576806_8e2ea41ce7136f2505c69421a1a166e5.jpg" alt="Đầm công sở">
                 <div class="item-info">
-                    <h3>Đầm Công Sở Đen</h3>
+                    <h3>Hoodie đen</h3>
                     <p>890.000đ</p>
                 </div>
             </div>
             <div class="item" data-aos="fade-up" data-aos-delay="300">
-                <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800" alt="Hoodie">
+                <img src="ảnh/z7269607662501_59f753d2fc158f013fc2c0bde30984bd.jpg" alt="Hoodie">
                 <div class="item-info">
-                    <h3>Hoodie Oversize</h3>
+                    <h3>Sơ mi trắng</h3>
                     <p>680.000đ</p>
                 </div>
             </div>
             <div class="item" data-aos="fade-up" data-aos-delay="400">
-                <img src="ảnh/z7269443548905_43e0fa03e50582256b7d063bd7795e72.jpg" alt="Quần Jean">
+                <img src="ảnh/z7269443548905_43e0fa03e50582256b7d063bd7795e72.jpg">
                 <div class="item-info">
                     <h3>Quần Jean Rách</h3>
                     <p>590.000đ</p>
@@ -292,7 +372,7 @@
         </div>
     </section>
 
-    <!-- FOOTER ĐÃ THÊM ĐẦY ĐỦ LINK CHÍNH CHỦ -->
+    
     <footer id="contact">
         <p>Email: pipomusic0306@gmail.com</p>
         <p>Số điện thoại: 0964 457 535</p>
